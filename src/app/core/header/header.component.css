@@ -8,9 +8,13 @@
 }
 
 .header-button {
-  margin: 0 5%;
+  margin: 0 10px;
 }
 
 .icon {
   color: #2a2827;
+}
+
+.icon-button {
+  margin: 0 10px;
 }

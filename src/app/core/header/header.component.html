@@ -1,18 +1,23 @@
 <mat-toolbar fxLayout="row" fxLayoutAlign="space-between center" >
   <div fxLayout="row" fxFlexAlign="space-between center" >
-    <div  class="header-name" fxLayout="row" fxFlexAlign="none center">
+    <div class="header-name" fxLayout="row" fxFlexAlign="none center">
       <img class="header-icon" src="http://simpleicon.com/wp-content/uploads/rocket.png" alt="">
       <h2>
         Up.
       </h2>
     </div>
-    <button class="header-button" mat-button>Basic</button>
-    <button class="header-button" mat-button>Basic</button>
+    <button class="header-button" mat-button>Delivery</button>
+    <button class="header-button" mat-button>FAQ</button>
   </div>
   <div>
-    <button mat-icon-button mat-button>
-      <mat-icon class="icon">
+    <button  mat-icon-button mat-button>
+      <mat-icon matBadge="4" matBadgeColor="accent" class="icon">
         delete
+      </mat-icon>
+    </button>
+    <button class="icon-button" mat-icon-button mat-button>
+      <mat-icon class="icon">
+        account_box
       </mat-icon>
     </button>
   </div>
